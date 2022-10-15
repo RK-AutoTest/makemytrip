@@ -15,7 +15,7 @@ public class TestCases extends Testbase{
 	
 		try {
 			POFlight pg= PageFactory.initElements(driver, POFlight.class);
-			pg.FromTO("Goa, India", "Mumbai India");
+			pg.FromTO("Goa, India", "Mumbai, India");
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

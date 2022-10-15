@@ -20,6 +20,7 @@ static WebDriver driver=null;
 		 driver = new ChromeDriver();
 			driver.get("https://www.makemytrip.com/");
 			 driver.manage().window().maximize();
+		
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -31,7 +32,7 @@ static WebDriver driver=null;
 	@AfterTest
 	public void teardown() throws InterruptedException {
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 			
 			driver.manage().deleteAllCookies();
 			driver.quit();

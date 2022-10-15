@@ -2,22 +2,22 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-04T17:13:12 IST" name="Surefire suite" finished-at="2022-10-04T17:13:37 IST" duration-ms="25105">
+  <suite started-at="2022-10-14T15:12:43 IST" name="Surefire suite" finished-at="2022-10-14T15:13:10 IST" duration-ms="27595">
     <groups>
     </groups>
-    <test started-at="2022-10-04T17:13:12 IST" name="Surefire test" finished-at="2022-10-04T17:13:37 IST" duration-ms="25105">
+    <test started-at="2022-10-14T15:12:43 IST" name="Surefire test" finished-at="2022-10-14T15:13:10 IST" duration-ms="27595">
       <class name="co.makemytrip.testsenarios.TestCases">
-        <test-method signature="Allcalls()[pri:0, instance:co.makemytrip.testsenarios.TestCases@3c947bc5]" started-at="2022-10-04T17:13:28 IST" name="Allcalls" finished-at="2022-10-04T17:13:29 IST" duration-ms="1402" status="PASS">
+        <test-method signature="Allcalls()[pri:0, instance:co.makemytrip.testsenarios.TestCases@c03cf28]" started-at="2022-10-14T15:12:57 IST" name="Allcalls" finished-at="2022-10-14T15:13:04 IST" duration-ms="6583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Allcalls -->
       </class> <!-- co.makemytrip.testsenarios.TestCases -->
       <class name="co.makemytrip.testsenarios.Testbase">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:co.makemytrip.testsenarios.Testbase@45ca843]" started-at="2022-10-04T17:13:12 IST" name="initialize" finished-at="2022-10-04T17:13:28 IST" duration-ms="15669" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:co.makemytrip.testsenarios.Testbase@574b560f]" started-at="2022-10-14T15:12:43 IST" name="initialize" finished-at="2022-10-14T15:12:57 IST" duration-ms="14385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:co.makemytrip.testsenarios.Testbase@45ca843]" started-at="2022-10-04T17:13:29 IST" name="teardown" finished-at="2022-10-04T17:13:37 IST" duration-ms="7978" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:co.makemytrip.testsenarios.Testbase@574b560f]" started-at="2022-10-14T15:13:04 IST" name="teardown" finished-at="2022-10-14T15:13:10 IST" duration-ms="6535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
